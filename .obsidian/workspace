@@ -4,12 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "47c50c54941578da",
+        "id": "e91d6aa8f0891da0",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md"
+            "file": "资料库/极客时间.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md",
+                "file": "资料库/极客时间.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md",
+                "file": "资料库/极客时间.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,23 +133,44 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md"
+                "file": "资料库/极客时间.md"
               }
+            }
+          },
+          {
+            "id": "40d0e26ddba1615e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1f2547c14271c50d",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "47c50c54941578da",
+  "active": "e91d6aa8f0891da0",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md",
+    "资料库/极客时间.md",
     "0 Main/Main.md",
-    "日记/2022-06-30.md",
-    "日记/2022-06-29.md",
-    "日记/2022-06-28.md"
+    "0 Main/Untitled Diagram.svg",
+    "资料库/文章B.md",
+    "资料库/文章A.md",
+    "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md",
+    "Excalidraw/Drawing 2022-07-01 22.31.05.excalidraw.md",
+    "echart/echarts-wordcloud.md.md",
+    "日记/2022-06-28.md",
+    "日记/2022-06-29.md"
   ]
 }

@@ -4,5 +4,7 @@
   "communityPluginSortOrder": "download",
   "showFrontmatter": false,
   "trashOption": "system",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "资料库"
 }

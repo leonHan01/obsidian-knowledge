@@ -3,11 +3,16 @@
   "calendar",
   "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
-  "obsidian-git",
   "file-explorer-note-count",
   "obsidian-code-block-enhancer",
   "obsidian-copy-block-link",
   "obsidian-kanban",
   "obsidian-echarts",
-  "dataview"
+  "dataview",
+  "drawio-obsidian",
+  "obsidian-pangu",
+  "obsidian-memos",
+  "obsidian-charts",
+  "obsidian-timelines",
+  "obsidian-checklist-plugin"
 ]
