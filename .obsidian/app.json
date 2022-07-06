@@ -6,5 +6,6 @@
   "trashOption": "system",
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "资料库"
+  "newFileFolderPath": "资料库",
+  "fileSortOrder": "byCreatedTimeReverse"
 }

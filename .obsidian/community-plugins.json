@@ -1,6 +1,5 @@
 [
   "table-editor-obsidian",
-  "calendar",
   "obsidian-excalidraw-plugin",
   "recent-files-obsidian",
   "file-explorer-note-count",
@@ -13,6 +12,5 @@
   "obsidian-pangu",
   "obsidian-memos",
   "obsidian-charts",
-  "obsidian-timelines",
-  "obsidian-checklist-plugin"
+  "obsidian-timelines"
 ]

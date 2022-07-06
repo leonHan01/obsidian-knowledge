@@ -1,32 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "Java内存模型",
+      "path": "资料库/并发编程/Java内存模型.md"
+    },
+    {
+      "basename": "JAVA 并发编程实战",
+      "path": "资料库/并发编程/JAVA 并发编程实战.md"
+    },
+    {
       "basename": "极客时间",
       "path": "资料库/极客时间.md"
+    },
+    {
+      "basename": "可见性、原子性和有序性",
+      "path": "资料库/并发编程/可见性、原子性和有序性.md"
+    },
+    {
+      "basename": "CPU、内存、IO 设备速度差异",
+      "path": "资料库/计算机体系结构/CPU、内存、IO 设备速度差异.md"
     },
     {
       "basename": "Main",
       "path": "0 Main/Main.md"
     },
     {
-      "basename": "Untitled Diagram",
-      "path": "0 Main/Untitled Diagram.svg"
+      "basename": "目标四：个人影响力",
+      "path": "0 Main/目标四：个人影响力.md"
     },
     {
-      "basename": "文章B",
-      "path": "资料库/文章B.md"
+      "basename": "目标三：个人成长",
+      "path": "0 Main/目标三：个人成长.md"
     },
     {
-      "basename": "文章A",
-      "path": "资料库/文章A.md"
+      "basename": "目标二：跳槽面试准备",
+      "path": "0 Main/目标二：跳槽面试准备.md"
     },
     {
-      "basename": "Drawing 2022-06-30 00.19.50.excalidraw",
-      "path": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md"
+      "basename": "目标一：授课赚钱",
+      "path": "0 Main/目标一：授课赚钱.md"
     },
     {
       "basename": "echarts-wordcloud.md",
       "path": "echart/echarts-wordcloud.md.md"
+    },
+    {
+      "basename": "文章A",
+      "path": "资料库/测试/文章A.md"
+    },
+    {
+      "basename": "文章B",
+      "path": "资料库/测试/文章B.md"
+    },
+    {
+      "basename": "Untitled Diagram",
+      "path": "附件/Untitled Diagram.svg"
+    },
+    {
+      "basename": "Drawing 2022-06-30 00.19.50.excalidraw",
+      "path": "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md"
     },
     {
       "basename": "2022-06-28",

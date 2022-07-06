@@ -1,195 +1,234 @@
+仪表盘：
 ``` dataviewjs
 var echarts = app.plugins.plugins['obsidian-echarts'].echarts();
  
 var option;
 
 option = {
-  color: ['#80FFA5', '#00DDFF', '#37A2FF', '#FF0087', '#FFBF00'],
-  title: {
-    text: 'Gradient Stacked Area Chart'
-  },
-  tooltip: {
-    trigger: 'axis',
-    axisPointer: {
-      type: 'cross',
-      label: {
-        backgroundColor: '#6a7985'
-      }
-    }
-  },
-  legend: {
-    data: ['Line 1', 'Line 2', 'Line 3', 'Line 4', 'Line 5']
-  },
-  toolbox: {
-    feature: {
-      saveAsImage: {}
-    }
-  },
-  grid: {
-    left: '3%',
-    right: '4%',
-    bottom: '3%',
-    containLabel: true
-  },
-  xAxis: [
-    {
-      type: 'category',
-      boundaryGap: false,
-      data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
-    }
-  ],
-  yAxis: [
-    {
-      type: 'value'
-    }
-  ],
   series: [
     {
-      name: 'Line 1',
-      type: 'line',
-      stack: 'Total',
-      smooth: true,
-      lineStyle: {
-        width: 0
+      type: 'gauge',
+      startAngle: 180,
+      endAngle: 0,
+      min: 0,
+      max: 1,
+      splitNumber: 8,
+      axisLine: {
+        lineStyle: {
+          width: 6,
+          color: [
+            [0.25, '#FF6E76'],
+            [0.5, '#FDDD60'],
+            [0.75, '#58D9F9'],
+            [1, '#7CFFB2']
+          ]
+        }
       },
-      showSymbol: false,
-      areaStyle: {
-        opacity: 0.8,
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          {
-            offset: 0,
-            color: 'rgb(128, 255, 165)'
-          },
-          {
-            offset: 1,
-            color: 'rgb(1, 191, 236)'
+      pointer: {
+        icon: 'path://M12.8,0.7l12,40.1H0.7L12.8,0.7z',
+        length: '12%',
+        width: 20,
+        offsetCenter: [0, '-60%'],
+        itemStyle: {
+          color: 'auto'
+        }
+      },
+      axisTick: {
+        length: 12,
+        lineStyle: {
+          color: 'auto',
+          width: 2
+        }
+      },
+      splitLine: {
+        length: 20,
+        lineStyle: {
+          color: 'auto',
+          width: 5
+        }
+      },
+      axisLabel: {
+        color: '#464646',
+        fontSize: 20,
+        distance: -60,
+        formatter: function (value) {
+          if (value === 0.875) {
+            return 'A';
+          } else if (value === 0.625) {
+            return 'B';
+          } else if (value === 0.375) {
+            return 'C';
+          } else if (value === 0.125) {
+            return 'D';
           }
-        ])
+          return '';
+        }
       },
-      emphasis: {
-        focus: 'series'
+      title: {
+        offsetCenter: [0, '-20%'],
+        fontSize: 30
       },
-      data: [140, 232, 101, 264, 90, 340, 250]
-    },
-    {
-      name: 'Line 2',
-      type: 'line',
-      stack: 'Total',
-      smooth: true,
-      lineStyle: {
-        width: 0
+      detail: {
+        fontSize: 50,
+        offsetCenter: [0, '0%'],
+        valueAnimation: true,
+        formatter: function (value) {
+          return Math.round(value * 100) + '分';
+        },
+        color: 'auto'
       },
-      showSymbol: false,
-      areaStyle: {
-        opacity: 0.8,
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          {
-            offset: 0,
-            color: 'rgb(0, 221, 255)'
-          },
-          {
-            offset: 1,
-            color: 'rgb(77, 119, 255)'
-          }
-        ])
-      },
-      emphasis: {
-        focus: 'series'
-      },
-      data: [120, 282, 111, 234, 220, 340, 310]
-    },
-    {
-      name: 'Line 3',
-      type: 'line',
-      stack: 'Total',
-      smooth: true,
-      lineStyle: {
-        width: 0
-      },
-      showSymbol: false,
-      areaStyle: {
-        opacity: 0.8,
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          {
-            offset: 0,
-            color: 'rgb(55, 162, 255)'
-          },
-          {
-            offset: 1,
-            color: 'rgb(116, 21, 219)'
-          }
-        ])
-      },
-      emphasis: {
-        focus: 'series'
-      },
-      data: [320, 132, 201, 334, 190, 130, 220]
-    },
-    {
-      name: 'Line 4',
-      type: 'line',
-      stack: 'Total',
-      smooth: true,
-      lineStyle: {
-        width: 0
-      },
-      showSymbol: false,
-      areaStyle: {
-        opacity: 0.8,
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          {
-            offset: 0,
-            color: 'rgb(255, 0, 135)'
-          },
-          {
-            offset: 1,
-            color: 'rgb(135, 0, 157)'
-          }
-        ])
-      },
-      emphasis: {
-        focus: 'series'
-      },
-      data: [220, 402, 231, 134, 190, 230, 120]
-    },
-    {
-      name: 'Line 5',
-      type: 'line',
-      stack: 'Total',
-      smooth: true,
-      lineStyle: {
-        width: 0
-      },
-      showSymbol: false,
-      label: {
-        show: true,
-        position: 'top'
-      },
-      areaStyle: {
-        opacity: 0.8,
-        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-          {
-            offset: 0,
-            color: 'rgb(255, 191, 0)'
-          },
-          {
-            offset: 1,
-            color: 'rgb(224, 62, 76)'
-          }
-        ])
-      },
-      emphasis: {
-        focus: 'series'
-      },
-      data: [220, 302, 181, 234, 210, 290, 150]
+      data: [
+        {
+          value: 0.1,
+          name: 'Grade Rating'
+        }
+      ]
     }
   ]
 };
   
 app.plugins.plugins['obsidian-echarts'].render(option, this.container)
 ```
+---
 
+``` dataviewjs
+var echarts = app.plugins.plugins['obsidian-echarts'].echarts();
+var option;
 
+option = {
+  tooltip: {
+    formatter: '{a} <br/>{b} : {c}%'
+  },
+  series: [
+    {
+      name: 'Pressure',
+      type: 'gauge',
+      progress: {
+        show: true
+      },
+      detail: {
+        valueAnimation: true,
+        formatter: '{value}'
+      },
+      data: [
+        {
+          value: 50,
+          name: 'SCORE'
+        }
+      ]
+    }
+  ]
+};
+  
+app.plugins.plugins['obsidian-echarts'].render(option, this.container)
+```
+---
+
+``` dataviewjs
+var echarts = app.plugins.plugins['obsidian-echarts'].echarts();
+var option;
+
+const gaugeData = [
+  {
+    value: 20,
+    name: 'Perfect',
+    title: {
+      offsetCenter: ['0%', '-40%']
+    },
+    detail: {
+      valueAnimation: true,
+      offsetCenter: ['0%', '-30%']
+    }
+  },
+  {
+    value: 40,
+    name: 'Good',
+    title: {
+      offsetCenter: ['0%', '-10%']
+    },
+    detail: {
+      valueAnimation: true,
+      offsetCenter: ['0%', '0%']
+    }
+  },
+  {
+    value: 60,
+    name: 'Commonly',
+    title: {
+      offsetCenter: ['0%', '20%']
+    },
+    detail: {
+      valueAnimation: true,
+      offsetCenter: ['0%', '30%']
+    }
+  },
+  {
+    value: 50,
+    name: '测试',
+    title: {
+      offsetCenter: ['0%', '50%']
+    },
+    detail: {
+      valueAnimation: true,
+      offsetCenter: ['0%', '60%']
+    }
+  }
+];
+option = {
+  series: [
+    {
+      type: 'gauge',
+      startAngle: 90,
+      endAngle: -270,
+      pointer: {
+        show: false
+      },
+      progress: {
+        show: true,
+        overlap: false,
+        roundCap: true,
+        clip: false,
+        itemStyle: {
+          borderWidth: 1,
+          borderColor: '#464646'
+        }
+      },
+      axisLine: {
+        lineStyle: {
+          width: 55
+        }
+      },
+      splitLine: {
+        show: false,
+        distance: 10,
+        length: 20
+      },
+      axisTick: {
+        show: false
+      },
+      axisLabel: {
+        show: false,
+        distance: 5
+      },
+      data: gaugeData,
+      title: {
+        fontSize: 14
+      },
+      detail: {
+        width: 60,
+        height: 14,
+        fontSize: 14,
+        color: 'auto',
+        borderColor: 'auto',
+        borderRadius: 20,
+        borderWidth: 1,
+        formatter: '{value}%'
+      }
+    }
+  ]
+}; 
+app.plugins.plugins['obsidian-echarts'].render(option, this.container)
+```
 
 
 * echart 图片例子：https://echarts.apache.org/examples/en/index.html

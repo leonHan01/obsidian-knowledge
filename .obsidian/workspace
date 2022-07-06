@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e91d6aa8f0891da0",
+        "id": "e1a5f380bd27ba2c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "资料库/极客时间.md",
+            "file": "资料库/并发编程/Java内存模型.md",
             "mode": "source",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "资料库/极客时间.md",
+                "file": "资料库/并发编程/Java内存模型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,20 +97,12 @@
             }
           },
           {
-            "id": "4532239a869f74cb",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "3d96eb46e03930c5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "资料库/极客时间.md",
+                "file": "资料库/并发编程/Java内存模型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "资料库/极客时间.md"
+                "file": "资料库/并发编程/Java内存模型.md"
               }
             }
           },
@@ -144,33 +136,25 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "1f2547c14271c50d",
-            "type": "leaf",
-            "state": {
-              "type": "todo",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 221.5
   },
-  "active": "e91d6aa8f0891da0",
+  "active": "e1a5f380bd27ba2c",
   "lastOpenFiles": [
+    "资料库/并发编程/Java内存模型.md",
+    "资料库/并发编程/JAVA 并发编程实战.md",
     "资料库/极客时间.md",
+    "资料库/并发编程/可见性、原子性和有序性.md",
+    "资料库/计算机体系结构/CPU、内存、IO 设备速度差异.md",
     "0 Main/Main.md",
-    "0 Main/Untitled Diagram.svg",
-    "资料库/文章B.md",
-    "资料库/文章A.md",
-    "Excalidraw/Drawing 2022-06-30 00.19.50.excalidraw.md",
-    "Excalidraw/Drawing 2022-07-01 22.31.05.excalidraw.md",
-    "echart/echarts-wordcloud.md.md",
-    "日记/2022-06-28.md",
-    "日记/2022-06-29.md"
+    "0 Main/目标四：个人影响力.md",
+    "0 Main/目标三：个人成长.md",
+    "0 Main/目标二：跳槽面试准备.md",
+    "0 Main/目标一：授课赚钱.md"
   ]
 }
