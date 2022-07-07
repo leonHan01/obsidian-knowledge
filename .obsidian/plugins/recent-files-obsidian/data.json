@@ -1,24 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Java内存模型",
-      "path": "资料库/并发编程/Java内存模型.md"
+      "basename": "死锁",
+      "path": "资料库/死锁.md"
     },
     {
-      "basename": "JAVA 并发编程实战",
-      "path": "资料库/并发编程/JAVA 并发编程实战.md"
+      "basename": "锁",
+      "path": "资料库/02 二级知识类目/并发编程/锁.md"
+    },
+    {
+      "basename": "原子性",
+      "path": "资料库/02 二级知识类目/并发编程/原子性.md"
+    },
+    {
+      "basename": "JMM模型",
+      "path": "资料库/JMM模型.md"
+    },
+    {
+      "basename": "synchronized",
+      "path": "资料库/synchronized.md"
+    },
+    {
+      "basename": "可见性、原子性和有序性",
+      "path": "资料库/02 二级知识类目/并发编程/可见性、原子性和有序性.md"
+    },
+    {
+      "basename": "Java内存模型",
+      "path": "资料库/02 二级知识类目/并发编程/Java内存模型.md"
+    },
+    {
+      "basename": "线程切换",
+      "path": "资料库/线程切换.md"
+    },
+    {
+      "basename": "二级：JAVA 并发",
+      "path": "资料库/02 二级知识类目/二级：JAVA 并发.md"
+    },
+    {
+      "basename": "一级 java",
+      "path": "资料库/01 一级知识类目/一级 java.md"
+    },
+    {
+      "basename": "资料库",
+      "path": "资料库/08 资料库/资料库.md"
     },
     {
       "basename": "极客时间",
       "path": "资料库/极客时间.md"
     },
     {
-      "basename": "可见性、原子性和有序性",
-      "path": "资料库/并发编程/可见性、原子性和有序性.md"
-    },
-    {
       "basename": "CPU、内存、IO 设备速度差异",
-      "path": "资料库/计算机体系结构/CPU、内存、IO 设备速度差异.md"
+      "path": "资料库/02 二级知识类目/计算机体系结构/CPU、内存、IO 设备速度差异.md"
     },
     {
       "basename": "Main",
@@ -46,11 +78,11 @@
     },
     {
       "basename": "文章A",
-      "path": "资料库/测试/文章A.md"
+      "path": "资料库/09 其他/测试/文章A.md"
     },
     {
       "basename": "文章B",
-      "path": "资料库/测试/文章B.md"
+      "path": "资料库/09 其他/测试/文章B.md"
     },
     {
       "basename": "Untitled Diagram",

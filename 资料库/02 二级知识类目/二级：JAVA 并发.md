@@ -33,3 +33,5 @@ url: https://time.geekbang.org/column/article/83087?cid=100023901
 [[可见性、原子性和有序性]] 并发编程BUG源头
 
 [[Java内存模型]] Java 解决可见性和有序性的方法
+
+[[锁]] 通过锁解决原子性问题
